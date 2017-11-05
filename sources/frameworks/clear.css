@@ -1,0 +1,24 @@
+/* Margins and Paddings */
+	html, body{margin: 0px; padding: 0px; border: 0px;}
+
+/* Fonts */
+	body {font-size: 1em/1.25; font-family: sans-serif;}
+
+/* Headlines */
+	h1, h2, h3, h4, h5, h6 {margin-top: 0; padding: 0;}
+
+/* Links */
+	a, a:link, a:visited, a:active, a:hover {text-decoration: none; display: inline-block;}
+
+/* Images */
+	img {border: none;}
+
+/* Lists */
+	ul, li{list-style-type: none; text-decoration: none; margin: 0; padding: 0;}
+
+/* Text */
+	p{margin: 0; padding: 0;}
+
+
+/* Made by j.luehmann@neusta.de */
+/* Inspired by Jennifer Kyrnin's Article (https://www.thoughtco.com/remove-default-styling-with-master-sheet-3466871) */
