@@ -6,16 +6,20 @@
 		height: 100px;
 		color: #fff;
 		display: flex;
-			align-items: center;
-			justify-content: center;
+		align-items: center;
 	}
 		.nav__list{
-			margin-left: auto;
+			max-width: 1280px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 			.nav__logo{
 				height: 60px;
 				width: 60px;
-				margin-left: 20px;
+				margin-right: 40px;
+				display: inline-block;
 				background-image: url(images/biojay_logo-white.png);
 				background-size: cover;
 				background-position: center;
@@ -25,6 +29,9 @@
 				margin-right: 40px;
 				padding-bottom: 5px;
 			}
-				.nav__link{
-					color: inherit;
+				.nav__item:last-child{
+					margin-right: 0;
 				}
+			.nav__link{
+				color: inherit;
+			}
