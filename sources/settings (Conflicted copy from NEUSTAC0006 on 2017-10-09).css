@@ -1,0 +1,18 @@
+*{box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+/* Home Logo */
+.logo{
+
+}
+	.logo__wrapper{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		color: #fff;
+	}
+		.logo__text{
+			font-family: 'Zilla Slab', serif;
+			margin-bottom: 0;
+		}
