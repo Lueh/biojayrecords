@@ -1,0 +1,30 @@
+.upcomingevent{
+	
+}
+	.upcomingevent__wrapper{
+		padding: 40px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		margin-left: 30px;
+		margin-bottom: 30px;
+		background-color: #fff;	
+	}
+		.upcomingevent__title{
+			text-transform: uppercase;
+			font-weight: bold;
+			display: block;
+			margin-bottom: 5px;
+		}
+		.upcomingevent__artist{
+			font-size: 2rem;
+			font-weight: 600;
+			font-family: 'Zilla Slab', serif;
+			color: #ea9f38;
+			display: block;
+			margin-bottom: 15px;
+		}
+		.upcomingevent__date{
+			display: block;
+			text-transform: uppercase;
+		}
