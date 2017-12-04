@@ -2,25 +2,45 @@
 	width: 100%;
 	height: 100vh;
 	background-color: rgba(0,0,0,1);
-	position: fixed;
+	position: absolute;
 	right: 0;
 	bottom: 0;
 	z-index: -100;
 }
 	.videobackground__video{
-		position: fixed;
-  		right: 0; 
-  		bottom: 0;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
   		min-width: 100%; 
   		min-height: 100%;
- 		width: auto; 
-		height: auto;
-		z-index: -110;
+ 		z-index: -110;
 	}
 
 .videobackground__overlay{
 	width: 100%;
 	height: 100vh;
+	left: 0;
 	background-color: rgba(0,0,0,.6);
 	border: 20px solid #fff;
+	overflow: hidden;
+	position: absolute;
+	transition: 1s all;
+}
+
+.content {
+	position: absolute;
+	left: -50%;
+	width: 50%;
+	height: 100%;
+	background-color: hotpink;
+	transition: 1s all;
+}
+
+.main--split .content{
+	left: 0;
+}
+
+.main--split .videobackground__overlay{
+	left: 50%;
+	width: 50%;
 }
