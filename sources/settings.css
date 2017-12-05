@@ -1,4 +1,4 @@
-*{box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+*{box-sizing: border-box; font-family: 'Poppins', sans-serif;}
 
 /* Home Logo */
 .logo{
@@ -13,6 +13,13 @@
 		color: #fff;
 	}
 		.logo__text{
-			font-family: 'Zilla Slab', serif;
+			font-family: 'Josefin Sans', serif;
+			text-transform: uppercase;
+		}
+		.logo__text--split{
+			font-family: 'Josefin Sans', serif;
+			text-transform: uppercase;
+		}
+		.logo__text:last-child{
 			margin-bottom: 0;
 		}

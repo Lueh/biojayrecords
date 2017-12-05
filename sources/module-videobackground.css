@@ -24,16 +24,20 @@
 	border: 20px solid #fff;
 	overflow: hidden;
 	position: absolute;
-	transition: 1s all;
+	transition: 1000ms all;
 }
+
+
+/* Other Content */
 
 .content {
 	position: absolute;
 	left: -50%;
 	width: 50%;
 	height: 100%;
-	background-color: hotpink;
-	transition: 1s all;
+	padding: 20px;
+	background-color: #fff;
+	transition: 1000ms all;
 }
 
 .main--split .content{
@@ -43,6 +47,17 @@
 .main--split .videobackground__overlay{
 	left: 50%;
 	width: 50%;
+}
+
+.main--split .upcomingevent__wrapper{
+	background-color: #000;
+	color: #fff;
+}
+
+.section{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
 }
 
 .hidden {
