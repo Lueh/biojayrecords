@@ -8,18 +8,19 @@
 		left: 0;
 		margin-left: 30px;
 		margin-bottom: 30px;
-		background-color: #fff;	
+		background-color: #fff;
+		transition: 1s all;
 	}
 		.upcomingevent__title{
 			text-transform: uppercase;
 			font-weight: bold;
 			display: block;
-			margin-bottom: 5px;
+			margin-bottom: 15px;
 		}
 		.upcomingevent__artist{
 			font-size: 2rem;
 			font-weight: 600;
-			font-family: 'Zilla Slab', serif;
+			font-family: 'Josefin Sans', serif;
 			color: #ea9f38;
 			display: block;
 			margin-bottom: 15px;
